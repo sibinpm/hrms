@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<odoo>
+
+
+    <data>
+        <report id="action_employee_history_report"
+		            model="hr.employee"
+		            string="Employment History Details Form"
+		            report_type="qweb-pdf"
+		            name="recruitment_management.history_report_employee"
+		            file="recruitment_management.history_report_employee"
+		            menu="False"
+		/>
+    </data>
+</odoo>
